@@ -11,7 +11,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { CircleUser, Menu, Package2, Home, List, Plus } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
-
+import { navItems } from "../App"; // Add this import
 
 const Layout = () => {
   return (
